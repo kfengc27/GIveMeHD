@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="menuPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="mazeButton" alignment="BOTTOM_CENTER" contentDisplay="BOTTOM" layoutX="55.0" layoutY="159.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleMaze" prefHeight="280.0" prefWidth="275.0" stylesheets="@style.css" text="Maze" textOverrun="CLIP">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="boulderButton" alignment="BOTTOM_CENTER" layoutX="365.0" layoutY="159.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleBoulder" prefHeight="280.0" prefWidth="275.0" stylesheets="@style.css" text="Boulder">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="advancedButton" alignment="BOTTOM_CENTER" layoutX="675.0" layoutY="159.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleAdvanced" prefHeight="280.0" prefWidth="275.0" text="Advanced">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="backButton" layoutX="929.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleBack" prefHeight="20.0" prefWidth="56.0" text="Back">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="instructionButton" layoutX="827.0" layoutY="15.0" mnemonicParsing="false" onAction="#handleInstruction" text="Instruction" />
+   </children>
+</Pane>

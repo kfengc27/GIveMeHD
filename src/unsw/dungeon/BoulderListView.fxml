@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="boulderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="boulder1Button" alignment="BOTTOM_CENTER" layoutX="66.0" layoutY="57.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleBoulder1" prefHeight="190.0" prefWidth="180.0" text="boulder1" />
+      <Button fx:id="boulder2Button" alignment="BOTTOM_CENTER" layoutX="293.0" layoutY="57.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleBoulder2" prefHeight="190.0" prefWidth="180.0" text="boulder2" />
+      <Button fx:id="boulder3Button" alignment="BOTTOM_CENTER" layoutX="520.0" layoutY="57.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleBoulder3" prefHeight="190.0" prefWidth="180.0" text="boulder3" />
+      <Button fx:id="boulder4Button" alignment="BOTTOM_CENTER" layoutX="749.0" layoutY="57.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleBoulder4" prefHeight="190.0" prefWidth="180.0" text="boulder4" />
+      <Button fx:id="boulder5Button" alignment="BOTTOM_CENTER" layoutX="66.0" layoutY="264.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleBoulder5" prefHeight="190.0" prefWidth="180.0" text="boulder5" />
+      <Button fx:id="boulder6Button" alignment="BOTTOM_CENTER" layoutX="293.0" layoutY="264.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleBoulder6" prefHeight="190.0" prefWidth="180.0" text="boulder6" />
+      <Button fx:id="boulder7Button" alignment="BOTTOM_CENTER" layoutX="520.0" layoutY="264.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleBoulder7" prefHeight="190.0" prefWidth="180.0" text="boulder7" />
+      <Button fx:id="boulder8Button" alignment="BOTTOM_CENTER" layoutX="749.0" layoutY="264.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleBoulder8" prefHeight="190.0" prefWidth="180.0" text="boulder8" />
+      <Button fx:id="boulder9Button" alignment="BOTTOM_CENTER" layoutX="66.0" layoutY="471.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleBoulder9" prefHeight="190.0" prefWidth="180.0" text="boulder9" />
+      <Button fx:id="boulder10Button" alignment="BOTTOM_CENTER" layoutX="293.0" layoutY="471.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleBoulder10" prefHeight="190.0" prefWidth="180.0" text="boulder10" />
+      <Button fx:id="boulder11Button" alignment="BOTTOM_CENTER" layoutX="520.0" layoutY="471.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleBoulder11" prefHeight="190.0" prefWidth="180.0" text="boulder11" />
+      <Button fx:id="boulder12Button" alignment="BOTTOM_CENTER" layoutX="749.0" layoutY="471.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleBoulder12" prefHeight="190.0" prefWidth="180.0" text="boulder12" />
+      <Button fx:id="backButton" layoutX="929.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleBoulderBack" text="Back" />
+   </children>
+</Pane>

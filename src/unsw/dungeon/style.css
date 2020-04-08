@@ -1,0 +1,272 @@
+#paneStart{
+	-fx-background-color:#e3c98d;
+    -fx-background-image: url("/dungeonName.jpg"), url("/playground.jpeg");
+    -fx-background-repeat: no-repeat, no-repeat; 
+    -fx-background-size: 1000, 900;
+    -fx-background-position: 10 40, 60 280;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+
+#aboutPane{
+	-fx-background-color:#e3c98d;
+    -fx-background-image: url("/about.png");
+    -fx-background-repeat: no-repeat; 
+    -fx-background-size: auto;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+
+#successPane{
+    -fx-background-image: url("/back.jpeg"), url("/solve.jpeg");
+    -fx-background-repeat: no-repeat; 
+    -fx-background-size: 500, 350;
+    -fx-background-position: 250 250, 300 300;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+
+#instructionPane{
+	-fx-background-color:#e3c98d;
+    -fx-background-image: url("/instruction.jpeg"), url("/human_new.png"), url("/brick_brown_0.png")
+    , url("/exit.png"), url("/boulder.png"), url("/pressure_plate.png"), url("/bomb_unlit.png")
+    , url("/deep_elf_master_archer.png"), url("/gold_pile.png"), url("/brilliant_blue_new.png")
+    , url("/bomb_lit_4.png"), url("/key.png"), url("/closed_door.png"), url("/greatsword_1_new.png")
+    , url("/space.jpeg");
+    -fx-background-repeat: no-repeat; 
+    -fx-background-size: 1000, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 27, 30, 600;
+    -fx-background-position: 0 0, 518 350, 525 392, 530 456, 535 490, 535 540, 540 575
+    , 546 605, 780 345, 780 380, 780 440, 783 510, 790 535, 790 570, 30 630;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+
+#menuPane{
+	-fx-background-color:#e3c98d;
+	-fx-background-image: url("/mazeGoal.jpeg"), url("/bouldersGoal.jpeg"), url("/advancedGoal.jpeg");
+    -fx-background-repeat: no-repeat; 
+    -fx-background-size: 300, 300, 275;
+    -fx-background-position: 40 500, 360 500, 685 500;
+}
+
+#boulderPane{
+	-fx-background-color:#e3c98d;
+}
+
+#mazePane{
+	-fx-background-color:#e3c98d;
+	-fx-background-image: url("/more.jpeg");
+    -fx-background-repeat: no-repeat; 
+    -fx-background-size: 300;
+    -fx-background-position: 335 500;
+}
+
+#advancedPane{
+	-fx-background-color:#e3c98d;
+	-fx-background-image: url("/more.jpeg");
+    -fx-background-repeat: no-repeat; 
+    -fx-background-size: 300;
+    -fx-background-position: 335 500;
+}
+
+#boulderGamePane{
+	-fx-background-image: url("/dirt_0_new.png");
+}
+
+#mazeGamePane{
+	-fx-background-image: url("/dirt_0_new.png");
+}
+
+#advancedGamePane{
+	-fx-background-image: url("/dirt_0_new.png");
+}
+
+#Start{
+	-fx-background-color: #ab7d1a;
+}
+
+#Start:pressed{
+	-fx-background-color: #b5a277;
+}
+
+#instructionButton{
+	-fx-background-color: #ab7d1a;
+}
+
+#aboutButton{
+	-fx-background-color: #ab7d1a;
+}
+
+
+#exitButton{
+	-fx-background-color: #ab7d1a;
+}
+
+#exitButton:pressed{
+	-fx-background-color: #b5a277;
+}
+
+#mazeButton{
+	-fx-background-color: #ab7d1a;
+	-fx-background-image: url("/maze.png");
+	-fx-background-size: 270;
+  	-fx-background-repeat: no-repeat;
+  	-fx-background-position: top, center;
+}
+
+#mazeButton:pressed{
+	-fx-background-color: #b5a277;
+}
+
+#boulderButton{
+	-fx-background-color: #ab7d1a;
+	-fx-background-image: url("/boulders.jpg");
+	-fx-background-size: 270;
+  	-fx-background-repeat: no-repeat;
+  	-fx-background-position: top, center;
+}
+
+#boulderButton:pressed{
+	-fx-background-color: #b5a277;
+}
+
+#advancedButton{
+	-fx-background-color: #ab7d1a;
+	-fx-background-image: url("/advanced.png");
+	-fx-background-size: 270;
+  	-fx-background-repeat: no-repeat;
+  	-fx-background-position: top, center;
+}
+
+#advancedButton:pressed{
+	-fx-background-color: #b5a277;
+}
+
+#backButton{
+	-fx-background-color: #ab7d1a;
+}
+
+#backButton:pressed{
+	-fx-background-color: #b5a277;
+}
+
+#maze1Button{
+	-fx-background-color: #ab7d1a;
+	-fx-background-image: url("/maze.png");
+    -fx-background-repeat: no-repeat; 
+    -fx-background-size: 297;
+    -fx-background-position: top;
+}
+
+#maze2Button{
+	-fx-background-color: #ab7d1a;
+	-fx-background-image: url("/maze2.jpeg");
+    -fx-background-repeat: no-repeat; 
+    -fx-background-size: 295;
+    -fx-background-position: top;
+}
+
+#maze1Button:pressed{
+	-fx-background-color: #b5a277;
+}
+
+#boulder1Button{
+	-fx-background-color: #ab7d1a;
+	-fx-background-image: url("/boulders1.jpeg");
+    -fx-background-repeat: no-repeat; 
+    -fx-background-size: 166;
+    -fx-background-position: top;
+}
+
+#boulder2Button{
+	-fx-background-color: #ab7d1a;
+	-fx-background-image: url("/boulders2.jpeg");
+    -fx-background-repeat: no-repeat; 
+    -fx-background-size: 170;
+    -fx-background-position: top;
+}
+
+#boulder3Button{
+	-fx-background-color: #ab7d1a;
+	-fx-background-image: url("/boulders3.jpeg");
+    -fx-background-repeat: no-repeat; 
+    -fx-background-size: 167;
+    -fx-background-position: top;
+}
+
+#boulder4Button{
+	-fx-background-color: #ab7d1a;
+	-fx-background-image: url("/boulders4.jpeg");
+    -fx-background-repeat: no-repeat; 
+    -fx-background-size: 169;
+    -fx-background-position: top;
+}
+
+#boulder5Button{
+	-fx-background-color: #ab7d1a;
+	-fx-background-image: url("/boulders5.jpeg");
+    -fx-background-repeat: no-repeat; 
+    -fx-background-size: 167;
+    -fx-background-position: top;
+}
+
+#boulder6Button{
+	-fx-background-color: #ab7d1a;
+	-fx-background-image: url("/boulders6.jpeg");
+    -fx-background-repeat: no-repeat; 
+    -fx-background-size: 167;
+    -fx-background-position: top;
+}
+
+#boulder7Button{
+	-fx-background-color: #ab7d1a;
+	-fx-background-image: url("/boulders7.jpeg");
+    -fx-background-repeat: no-repeat; 
+    -fx-background-size: 168;
+    -fx-background-position: top;
+}
+
+#boulder8Button{
+	-fx-background-color: #ab7d1a;
+	-fx-background-image: url("/boulders8.jpeg");
+    -fx-background-repeat: no-repeat; 
+    -fx-background-size: 168;
+    -fx-background-position: top;
+}
+
+#boulder9Button{
+	-fx-background-color: #ab7d1a;
+	-fx-background-image: url("/boulders9.jpeg");
+    -fx-background-repeat: no-repeat; 
+    -fx-background-size: 172;
+    -fx-background-position: top;
+}
+
+#boulder10Button{
+	-fx-background-color: #ab7d1a;
+	-fx-background-image: url("/boulders10.jpeg");
+    -fx-background-repeat: no-repeat; 
+    -fx-background-size: 168;
+    -fx-background-position: top;
+}
+
+#boulder11Button{
+	-fx-background-color: #ab7d1a;
+	-fx-background-image: url("/boulders11.jpeg");
+    -fx-background-repeat: no-repeat; 
+    -fx-background-size: 168;
+    -fx-background-position: top;
+}
+
+#boulder12Button{
+	-fx-background-color: #ab7d1a;
+	-fx-background-image: url("/boulders12.jpeg");
+    -fx-background-repeat: no-repeat; 
+    -fx-background-size: 174;
+    -fx-background-position: top;
+}
+
+#advanced1Button{
+	-fx-background-color: #ab7d1a;
+	-fx-background-image: url("/advanced.png");
+    -fx-background-repeat: no-repeat; 
+    -fx-background-size: 295;
+    -fx-background-position: top;
+}
+
